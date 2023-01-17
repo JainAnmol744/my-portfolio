@@ -26,13 +26,13 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++ and Javascript. </b>
+                <b className="purple"> C++ and Javascript and Object-oriented Programming. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple">Web Technologies and Problem Solving </b>
               </i>
               <br />
               <br />
@@ -46,7 +46,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>
