@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import weather from '../../Assets/Projects/weather.jpg';
+import mailkaro from '../../Assets/Projects/mail-karo.jpg'
 import inotebook from '../../Assets/Projects/inotebook.jpg';
 import news from '../../Assets/Projects/news.jpg';
 
@@ -18,6 +19,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mailkaro}
+              isBlog={false}
+              title="Mail-Karo"
+              description=" Mailbox client is an application where users can send and receive mail.Each user has their own account and users cannot access other users data"
+              ghLink="https://github.com/JainAnmol744/Mail-Karo"
+              demoLink="https://mail-karo.vercel.app/"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={weather}
